@@ -1,0 +1,19 @@
+{
+  "name": "node-sql-shop",
+  "version": "1.0.0",
+  "description": "A NodeJS app built for the purpose of practicing MySQL + Sequelize ORM",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "server": "node app.js"
+  },
+  "author": "Dzenis H.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^5.21.5"
+  }
+}
